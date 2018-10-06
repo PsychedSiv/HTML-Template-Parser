@@ -46,7 +46,6 @@
 
 			// Sanatizes the finished result
 			$this->HTMLTemplate = $this->stringSanitizer($doc->saveHTML());
-			return $HTMLTemplate;
 		}
 
 		/**
